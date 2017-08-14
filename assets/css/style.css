@@ -98,6 +98,24 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+/* start hover styling */
+
+#logo:hover,
+input[type=submit]:hover,
+input[type=reset]:hover {
+  background: #5e7f7e;
+}
+
+nav a:hover {
+  color: #5e7f7e;
+}
+
+.social:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+
 /* footer */
 
 footer {
